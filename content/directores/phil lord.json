@@ -1,0 +1,12 @@
+{
+  "name": "Phil Lord",
+  "age": 50,
+  "birthYear": 1977,
+  "nationality": "Estadounidense",
+  "spouse": "Christina Lord",
+  "biography": "Director, productor y guionista estadounidense, conocido por La Gran Aventura LEGO y Lluvia de Hamburguesas.",
+  "movies": [
+    "la gran aventura lego.json",
+    "lluvia de hamburguesas.json"
+  ]
+}

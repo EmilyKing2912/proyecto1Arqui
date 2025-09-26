@@ -1,0 +1,11 @@
+{
+  "title": "Kung Fu Panda",
+  "releaseDate": "2008-06-06",
+  "genre": "Animación, Acción, Comedia",
+  "synopsis": "Po, un panda torpe, se convierte en el Guerrero Dragón para salvar el Valle de la Paz del malvado Tai Lung.",
+  "duration": 92,
+  "rating": "7.5/10",
+  "whereToWatch": "Netflix",
+  "studioRef": "dreamworks.json",
+  "directorRef": "mark osborne.json"
+}

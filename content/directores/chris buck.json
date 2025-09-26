@@ -1,0 +1,12 @@
+{
+  "name": "Chris Buck",
+  "age": 61,
+  "birthYear": 1968,
+  "nationality": "Estadounidense",
+  "spouse": "Jennifer Lee",
+  "biography": "Director estadounidense, conocido por Frozen y Frozen II, especializado en animación de Disney.",
+  "movies": [
+    "frozen.json",
+    "wish.json"
+  ]
+}

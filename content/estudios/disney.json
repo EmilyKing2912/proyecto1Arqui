@@ -1,0 +1,11 @@
+{
+  "name": "Walt Disney Animation Studios",
+  "country": "Estados Unidos",
+   "slug": "disney",
+  "description": "El icónico estudio de Disney, creador de clásicos animados que marcaron la historia del cine, como Frozen y The Lion King.",
+  "foundedYear": 1923,
+  "movies": [
+    "frozen.json",
+    "wish.json"
+  ]
+}

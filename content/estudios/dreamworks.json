@@ -1,0 +1,10 @@
+{
+  "name": "DreamWorks Animation",
+  "country": "Estados Unidos",
+   "slug": "dreamWorks",
+  "description": "Estudio de animación famoso por películas exitosas y con gran humor, como Shrek y Kung Fu Panda.",
+  "foundedYear": 1994,
+  "movies": [
+    "kung fu panda.json"
+  ]
+}

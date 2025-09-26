@@ -1,0 +1,11 @@
+{
+  "name": "Aardman Animations",
+  "country": "Reino Unido",
+   "slug": "aardman",
+  "description": "Estudio británico especializado en animación stop-motion, conocido por Wallace & Gromit y Chicken Run.",
+  "foundedYear": 1972,
+  "movies": [
+    "wallace y gromit.json",
+    "pollitos en fuga.json"
+  ]
+}

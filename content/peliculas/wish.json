@@ -1,0 +1,11 @@
+{
+  "title": "Wish",
+  "releaseDate": "2023-11-22",
+  "genre": "Animación, Aventura, Fantasía",
+  "synopsis": "Una joven llamada Asha hace un deseo que desencadena aventuras mágicas en el reino de los deseos, descubriendo el poder de la esperanza y la amistad.",
+  "duration": 104,
+  "rating": "7.8/10",
+  "whereToWatch": "Disney+",
+  "studioRef": "disney.json",
+  "directorRef": "chris buck.json"
+}

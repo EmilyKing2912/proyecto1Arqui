@@ -1,0 +1,12 @@
+{
+  "name": "Studio Ghibli",
+  "country": "Japón",
+   "slug": "ghibli",
+  "description": "Estudio japonés reconocido por películas animadas de gran calidad artística y narrativa, como Spirited Away y My Neighbor Totoro.",
+  "foundedYear": 1985,
+  "movies": [
+    "el castillo del vagabundo.json",
+    "mi vecino totoro.json",
+    "el viaje de chihiro.json"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Andrew Stanton",
+  "age": 61,
+  "birthYear": 1965,
+  "nationality": "Estadounidense",
+  "spouse": "Kimberly Adams",
+  "biography": "Director y guionista estadounidense de Pixar, conocido por Buscando a Nemo y Wall‑E.",
+  "movies": [
+    "buscando a memo.json",
+    "wall-e.json"
+  ]
+}

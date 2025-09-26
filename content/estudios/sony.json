@@ -1,0 +1,11 @@
+{
+  "name": "Sony Pictures Animation",
+  "country": "Estados Unidos",
+   "slug": "sony",
+  "description": "Estudio de animación de Sony, conocido por películas modernas y coloridas como Hotel Transylvania y Spider-Man: Into the Spider-Verse.",
+  "foundedYear": 2002,
+  "movies": [
+    "lluvia de hamburguesas.json",
+    "el principito.json"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Pixar Animation Studios",
+  "slug": "pixar",
+  "country": "Estados Unidos",
+  "description": "Estudio pionero en animación por computadora, conocido por películas innovadoras y de gran éxito.",
+  "foundedYear": 1986,
+  "movies": [
+    "wall-e.json",
+    "buscando a memo.json"
+  ]
+}

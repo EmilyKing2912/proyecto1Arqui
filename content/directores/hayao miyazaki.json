@@ -1,0 +1,12 @@
+{
+  "name": "Hayao Miyazaki",
+  "age": 82,
+  "birthYear": 1941,
+  "nationality": "Japonés",
+  "spouse": "Akemi Ota",
+  "biography": "Legendario director japonés y cofundador de Studio Ghibli, autor de clásicos como Mi Vecino Totoro y El Viaje de Chihiro.",
+  "movies": [
+    "mi vecino totoro.json",
+    "el castillo del vagabundo.json"
+  ]
+}

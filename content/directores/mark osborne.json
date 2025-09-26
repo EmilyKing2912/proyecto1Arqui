@@ -1,0 +1,12 @@
+{
+  "name": "Mark Osborne",
+  "age": 58,
+  "birthYear": 1968,
+  "nationality": "Estadounidense",
+  "spouse": "Desconocido",
+  "biography": "Director y animador estadounidense, conocido por El Principito y Kung Fu Panda (co-director).",
+  "movies": [
+    "el principito.json",
+    "kung fu panda.json"
+  ]
+}

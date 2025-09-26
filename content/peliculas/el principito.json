@@ -1,0 +1,11 @@
+{
+  "title": "El Principito",
+  "releaseDate": "2015-07-29",
+  "genre": "Animación, Fantasía, Familia",
+  "synopsis": "Una niña conoce a un excéntrico anciano que le cuenta la historia del Principito, revelando lecciones de amistad, amor y creatividad.",
+  "duration": 108,
+  "rating": "7.8/10",
+  "whereToWatch": "Netflix",
+  "studioRef": "sony.json",
+  "directorRef": "mark osborne.json"
+}

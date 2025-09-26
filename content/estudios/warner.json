@@ -1,0 +1,10 @@
+{
+  "name": "Warner Animation Group",
+  "country": "Estados Unidos",
+   "slug": "warner",
+  "description": "Estudio de animación de Warner Bros., conocido por películas como La Gran Aventura LEGO y otras adaptaciones animadas de franquicias populares.",
+  "foundedYear": 2013,
+  "movies": [
+    "la gran aventura lego.json"
+  ]
+}

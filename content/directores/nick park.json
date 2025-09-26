@@ -1,0 +1,12 @@
+{
+  "name": "Nick Park",
+  "age": 64,
+  "birthYear": 1958,
+  "nationality": "Británico",
+  "spouse": "Liz Park",
+  "biography": "Animador y director británico, creador de Wallace & Gromit y pionero en animación stop motion.",
+  "movies": [
+    "wallace y gromit.json",
+    "pollitos en fuga.json"
+  ]
+}

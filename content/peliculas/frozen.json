@@ -1,0 +1,11 @@
+{
+  "title": "Frozen",
+  "releaseDate": "2013-11-27",
+  "genre": "Animación, Aventura, Musical",
+  "synopsis": "Anna se embarca en un viaje épico para encontrar a su hermana Elsa, cuyos poderes congelantes han atrapado su reino en un invierno eterno.",
+  "duration": 102,
+  "rating": "7.4/10",
+  "whereToWatch": "Disney+",
+  "studioRef": "disney.json",
+  "directorRef": "chris buck.json"
+}

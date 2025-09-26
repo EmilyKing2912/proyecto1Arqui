@@ -1,0 +1,11 @@
+{
+  "title": "Mi vecino Totoro",
+  "releaseDate": "1988-04-16",
+  "genre": "Animación, Fantasía, Familiar",
+  "synopsis": "Dos hermanas pequeñas se mudan al campo y descubren a criaturas mágicas, incluyendo al icónico Totoro.",
+  "duration": 86,
+  "rating": "8.2/10",
+  "whereToWatch": "Netflix",
+  "studioRef": "ghibli.json",
+  "directorRef": "hayao miyazaki.json"
+}
