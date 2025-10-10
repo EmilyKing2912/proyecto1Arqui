@@ -15,6 +15,13 @@
     </div>
 
     <section class="content-center" v-if="estudio.name">
+      <!-- Foto del estudio -->
+      <img
+        :src="getEstudioImage(estudio.slug || estudio.name)"
+        :alt="estudio.name"
+        class="estudio-photo"
+      />
+
       <h2>{{ estudio.name }}</h2>
       <p><strong>País:</strong> {{ estudio.country }}</p>
       <p><strong>Descripción:</strong> {{ estudio.description }}</p>
@@ -61,6 +68,15 @@ export default {
     }
 
     return { estudio, movieData }
+  },
+  methods: {
+    getEstudioImage(name) {
+      try {
+        return `/images/${encodeURIComponent(name)}.jpg`
+      } catch {
+        return '/images/estudios/default.jpg'
+      }
+    }
   }
 }
 </script>
@@ -69,6 +85,13 @@ export default {
 .content-center {
   text-align: center;
   margin: 40px auto;
+}
+
+.estudio-photo {
+  max-width: 250px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .content-center h2 {
@@ -103,7 +126,6 @@ export default {
   color: #1b035e;
 }
 
-/* Botones menu */
 .menu-bar {
   display: flex;
   justify-content: center;
@@ -127,7 +149,6 @@ export default {
   transform: scale(1.05);
 }
 
-/* Botón footer */
 .footer-button {
   display: flex;
   justify-content: center;
