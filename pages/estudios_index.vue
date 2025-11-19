@@ -14,9 +14,10 @@
     <button class="btn">🏛️ Estudios</button>
   </NuxtLink>
 
-   <NuxtLink to="/carrito_index">
-    <button class="btn"> 🛒 Carrito</button>
-  </NuxtLink>
+<button class="snipcart-cart-button">
+  🛒 Ver carrito
+</button>
+
   
 </div>
     <section class="content-center">
