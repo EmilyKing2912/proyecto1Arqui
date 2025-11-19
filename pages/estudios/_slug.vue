@@ -15,17 +15,11 @@
     </div>
 
     <section class="content-center" v-if="estudio.name">
-      <!-- Foto del estudio -->
-      <img
-        :src="getEstudioImage(estudio.slug || estudio.name)"
-        :alt="estudio.name"
-        class="estudio-photo"
-      />
-
       <h2>{{ estudio.name }}</h2>
       <p><strong>País:</strong> {{ estudio.country }}</p>
       <p><strong>Descripción:</strong> {{ estudio.description }}</p>
       <p><strong>Año de fundación:</strong> {{ estudio.foundedYear }}</p>
+      <p><strong>Price:</strong> {{ estudio.price }}</p>
 
       <h3>Películas:</h3>
       <ul class="movies-list">
@@ -41,15 +35,38 @@
       <p>No se encontró el estudio.</p>
     </section>
 
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+  <button 
+    class="snipcart-add-item btn"
+    :data-item-id="estudio.name"
+    :data-item-name="estudio.name"
+    :data-item-price="estudio.price"
+    :data-item-url="$route.fullPath"
+    :data-item-description="estudio.description"
+  >
+    🛒 Agregar al carrito
+  </button>
+</div>
+
     <div class="footer-button">
       <NuxtLink to="/">
         <button class="btn">Menú Principal</button>
       </NuxtLink>
     </div>
 
-    <FooterView />
+
+    <section id="comments" class="mt-10" style="margin-top: 40px;">
+      <script src="https://utteranc.es/client.js"
+              repo="EmilyKing2912/proyecto1Arqui"
+              issue-term="pathname"
+              theme="github-dark"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </section>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -68,15 +85,6 @@ export default {
     }
 
     return { estudio, movieData }
-  },
-  methods: {
-    getEstudioImage(name) {
-      try {
-        return `/images/${encodeURIComponent(name)}.jpg`
-      } catch {
-        return '/images/estudios/default.jpg'
-      }
-    }
   }
 }
 </script>
@@ -85,13 +93,6 @@ export default {
 .content-center {
   text-align: center;
   margin: 40px auto;
-}
-
-.estudio-photo {
-  max-width: 250px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .content-center h2 {
@@ -126,6 +127,7 @@ export default {
   color: #1b035e;
 }
 
+/* Botones menu */
 .menu-bar {
   display: flex;
   justify-content: center;
@@ -149,6 +151,7 @@ export default {
   transform: scale(1.05);
 }
 
+/* Botón footer */
 .footer-button {
   display: flex;
   justify-content: center;
@@ -169,5 +172,18 @@ export default {
 
 .footer-button .btn:hover {
   transform: scale(1.05);
+}
+.snipcart-add-item {
+  padding: 12px 25px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.snipcart-add-item:hover {
+  background-color: #1a242f;
 }
 </style>

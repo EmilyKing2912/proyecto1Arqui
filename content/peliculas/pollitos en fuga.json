@@ -7,5 +7,6 @@
   "rating": "7.0/10",
   "whereToWatch": "Netflix",
   "studioRef": "aardman.json",
-  "directorRef": "nick park.json"
+  "directorRef": "nick park.json",
+  "price":50
 }

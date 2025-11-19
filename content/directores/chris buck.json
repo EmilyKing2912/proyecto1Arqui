@@ -8,5 +8,6 @@
   "movies": [
     "frozen.json",
     "wish.json"
-  ]
+  ],
+  "price":2
 }

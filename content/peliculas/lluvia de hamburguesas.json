@@ -7,5 +7,6 @@
   "rating": "6.9/10",
   "whereToWatch": "Netflix",
   "studioRef": "sony.json",
-  "directorRef": "phil lord.json"
+  "directorRef": "phil lord.json",
+  "price":40
 }

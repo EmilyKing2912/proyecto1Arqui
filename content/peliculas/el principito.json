@@ -7,5 +7,6 @@
   "rating": "7.8/10",
   "whereToWatch": "Netflix",
   "studioRef": "sony.json",
-  "directorRef": "mark osborne.json"
+  "directorRef": "mark osborne.json",
+  "price":51
 }

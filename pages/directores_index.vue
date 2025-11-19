@@ -14,6 +14,10 @@
   <NuxtLink to="/estudios_index">
     <button class="btn">🏛️ Estudios</button>
   </NuxtLink>
+  
+   <NuxtLink to="/carrito_index">
+    <button class="btn"> 🛒 Carrito</button>
+  </NuxtLink>
 </div>
 
 

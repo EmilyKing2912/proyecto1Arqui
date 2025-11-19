@@ -7,5 +7,6 @@
   "rating": "7.4/10",
   "whereToWatch": "Disney+",
   "studioRef": "disney.json",
-  "directorRef": "chris buck.json"
+  "directorRef": "chris buck.json",
+  "price":22
 }

@@ -13,6 +13,11 @@
   <NuxtLink to="/estudios_index">
     <button class="btn">🏛️ Estudios</button>
   </NuxtLink>
+
+   <NuxtLink to="/carrito_index">
+    <button class="btn"> 🛒 Carrito</button>
+  </NuxtLink>
+  
 </div>
     <section class="content-center">
       <h3>Estudios</h3>
@@ -29,9 +34,21 @@
     <button class="btn">Menu Principal</button>
   </NuxtLink>
 </div>
-    <FooterView />
+
+
+
+    <section id="comments" class="mt-10" style="margin-top: 40px;">
+      <script src="https://utteranc.es/client.js"
+              repo="EmilyKing2912/proyecto1Arqui"
+              issue-term="pathname"
+              theme="github-dark"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </section>
   </div>
 </template>
+
 
 <script>
 export default {

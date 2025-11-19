@@ -8,5 +8,6 @@
   "movies": [
     "mi vecino totoro.json",
     "el castillo del vagabundo.json"
-  ]
+  ],
+  "price":40
 }

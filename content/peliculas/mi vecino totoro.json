@@ -7,5 +7,6 @@
   "rating": "8.2/10",
   "whereToWatch": "Netflix",
   "studioRef": "ghibli.json",
-  "directorRef": "hayao miyazaki.json"
+  "directorRef": "hayao miyazaki.json",
+  "price":15
 }

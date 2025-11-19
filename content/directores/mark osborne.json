@@ -8,5 +8,6 @@
   "movies": [
     "el principito.json",
     "kung fu panda.json"
-  ]
+  ],
+  "price":14
 }

@@ -24,9 +24,19 @@
       </div>
     </section>
 
-    <FooterView />
+
+    <section id="comments" class="mt-10" style="margin-top: 40px;">
+      <script src="https://utteranc.es/client.js"
+              repo="EmilyKing2912/proyecto1Arqui"
+              issue-term="pathname"
+              theme="github-dark"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </section>
   </div>
 </template>
+
 
 <script>
 export default {
