@@ -14,6 +14,11 @@
       <NuxtLink to="/estudios_index">
         <button class="btn">🏛️ Estudios</button>
       </NuxtLink>
+      <NuxtLink to="#">
+  <button class="btn" onclick="window.Snipcart.api.theme.cart.open()">
+    🛒 Carrito
+  </button>
+</NuxtLink>
     </div>
 
     <section class="content-center" v-if="director.name">
